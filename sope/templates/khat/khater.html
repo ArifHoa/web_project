@@ -1,0 +1,49 @@
+{% include "home.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utp-8">
+  <title>Door design </title>
+
+  <style>
+
+.body{
+   justify-content:center;
+   background:#a8a8a8;
+  
+}
+#te{
+  text-align: center
+}
+.row{
+  margin:5%;
+}
+#marg{
+  padding:20px;
+}
+
+
+</style>
+
+</head>
+<body class="body">
+<h1 id="te"> DOOR DESIGN </h1>
+
+
+<div class="row">
+{% for a in imag %}
+  <div class="col-sm-4 mb-3 mb-sm-0"id="marg">
+    <div class="card col-lg-8">
+      <div class="card-body">
+        <img class="card-img-rounded" src="{{a.kimg.url}}" alt="Cinque Terre"width="185" height="300">
+         <h5 class="card-title"id="te">{{x.titl}}</h5>
+        <a href="{% url 'khatd' a.id %}"class="btn btn-info" role="button">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  
+</div>
+</body>
+</html>

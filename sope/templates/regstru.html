@@ -1,0 +1,54 @@
+{% include "home.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+#fo{
+  width:380px;
+  height:430px;
+  text-align:center;
+  margin:40px 50px 50px 400px;
+  text-align-last: justify;
+  background-color:#000000;
+  padding:25px 25px 25px 25px;
+  border:20px solid dodgerblue;
+  border-radius: 10px;
+
+}
+#for{
+  background:gray;
+ 
+}
+
+#id_username,#id_email,#id_password{
+    width:290px;
+    height:50px;
+    border-radius: 8px;
+    font-size: 25px;
+    color:#000000;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  color:#f9f9f9;
+}
+#botn{
+
+  margin:20px 50px 50px 110px;
+}
+
+
+</style>
+</head>
+<body id="for">
+
+<form method="post">
+  {% csrf_token %}
+  <div id="fo">
+    {{form1.as_p}}
+    <button type="submit" class="btn btn-primary"id="botn">Submit</button>
+  </div>
+  
+</form>
+</body>
+</html>
