@@ -1,0 +1,147 @@
+@media screen and (max-width: 600px) {
+footer{
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0,0.1); 
+        position: fixed;
+        bottom:0;
+        width: 100%; 
+    }
+.min{
+    margin: -50px 0px 0px 110px ;
+}
+.icon{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.icon1{
+    margin-top: 20px;
+    width: 1rem;
+    height: 1rem;
+    padding: 4px;
+    }
+.icon1:hover{
+    background-color: rgb(244, 236, 240);
+    }
+    .icon_ri{
+        position: absolute;
+        margin: 0%;
+        margin-top: -30px;
+        }
+        .icon2{
+        width: 1.50rem;
+        height: 1rem;
+        padding: 6px;
+        box-shadow: 0 0 2px 2px cyan ;
+        }
+        .icon2:hover{
+        
+        background-color: rgb(198, 189, 193);
+        } 
+        
+.min{
+    position: relative;
+    margin-top: 100px;
+}      
+            .ci22{
+            position: absolute;
+            margin:-42px 130px 0px ;
+            height: 2px;
+            }
+            .icmm{
+            width: 15px;
+            height: 15px;
+            margin-left: 35px;
+            box-shadow: 0 0 1px 1px cyan;
+            }
+            h5{
+            font-size: 12px;
+            }
+            .fa{
+            position: absolute;
+            margin-top: -1px;
+            }
+.conte a{   
+    font-size: 8px;
+    padding-right: 10px;
+    }
+ul a{   
+    font-size: 13px;
+    padding-right: 10px;
+    }
+.psig{
+    margin-top: -20px;
+    }
+.psig h1{
+    font-size: 20px;
+    }
+              
+.mar{
+    width: 20px;
+    height: 20px;
+    }
+        
+/*prodex htmlcss desun*/
+
+
+.pmin-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 250px;
+    
+    
+}
+.carda{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 1, 1);
+  max-width: 220px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+  border-radius: 20px;  
+}
+.price {
+    color: rgb(8, 8, 8);
+    font-size: 22px;
+  }
+  
+  .carda button {
+    border-radius: 10px;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 170px;
+    font-size: 18px;
+  }
+  
+  .carda:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+  }
+  .crad-imag{
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+  }
+h2{
+    color: #0c0149;
+}
+p{
+    font: bold;
+}
+/*prodex htmlcss desuncolus*/
+/*profil htmlcss desun*/
+.container{
+    margin-top: 300px;
+}
+.abc{height: 340px;}
+/*profil htmlcss desuncolus*/
+}
